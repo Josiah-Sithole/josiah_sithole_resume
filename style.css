@@ -1,0 +1,407 @@
+@import url(https://weloveiconfonts.com/api/?family=entypo|fontawesome);
+/*fontAwesome imported*/
+
+body {
+	background: url(./images/background.webp) repeat;
+	margin: 0;
+}
+
+.block {
+	margin: 25px 30px;
+}
+
+.block h1 {
+	margin-left: -5px;
+	font-weight: 200;
+}
+
+.last.block {
+	margin-bottom: 110px;
+}
+
+/*navbar style starts here*/
+.header_nav_container {
+	height: 130px;
+	width: 699px;
+	float: left;
+}
+
+.header_nav_container a {
+	font-family: 'Lato', Helvetica, sans-serif;
+}
+
+#main_container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header {
+	height: 130px;
+	border-bottom: 1px solid #403F44;
+}
+
+.horizontal_list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.horizontal_list li {
+	float: left;
+}
+
+.horizontal_list li:before {
+	content: none;
+}
+
+.horizontal_list li {
+	padding-left: 0;
+	text-indent: 0;
+}
+
+.horizontal_line {
+	margin: 34px 0 0 30px;
+	height: 26px;
+	position: relative;
+}
+
+/*my name and occupation css here*/
+.logo_container {
+	width: 260px;
+	height: 130px;
+	border-right: 1px solid #403F44;
+	float: left;
+}
+
+.name {
+	text-transform: uppercase;
+	font-size: 32px;
+	margin: 43px 0 0;
+}
+
+.occupation {
+	text-transform: uppercase;
+	margin-top: 5px;
+	color: #5ce2af;
+	font-size: 14px;
+	letter-spacing: 2px;
+	padding-left: 7px;
+}
+
+/*headings css here*/
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Lato', Helvetica, sans-serif;
+	font-weight: 300;
+	color: #48DA9B;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: 300;
+	margin: 20px 0;
+}
+
+h2 {
+	font-size: 28px;
+	margin: 32px 0 24px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+/* Profile Content */
+
+.profile_quote {
+	position: relative;
+
+}
+
+.profile_quote p {
+	font-size: 17px;
+	width: 455px;
+}
+
+blockquote {
+	font-style: italic;
+	margin: 25px 0;
+	padding-left: 20px;
+	border-left: 2px solid #48DA9B;
+}
+
+blockquote,
+p,
+a,
+li {
+	font-family: 'Lato', Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	color: #e4e3e8;
+}
+
+/*circles in the middle of the lines*/
+.central_circle {
+	background: rgb(69, 68, 73);
+	background: rgba(255, 255, 255, 0.15);
+	position: absolute;
+	border-radius: 10px;
+}
+
+.central_circle {
+	width: 20px;
+	height: 20px;
+	top: 0px;
+	left: 322px;
+}
+
+.line_left,
+.line_right {
+	border-top: 1px solid #434247;
+	width: 305px;
+	margin-top: 13px;
+}
+
+.line_left {
+	float: left;
+}
+
+.line_right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.purple {
+	color: gold
+}
+
+/*Education section */
+.education {
+	margin-top: 20px;
+	line-height: 30px;
+}
+
+.education p {
+	margin: 0;
+	width: 370px;
+	float: left;
+}
+
+/* HEADER */
+.header_menu {
+	width: 699px;
+	margin-top: 70px;
+	margin-left: 5px;
+	justify-content: space-between;
+	
+}
+
+.header_menu a {
+	text-decoration: none;
+	padding: 0 20px;
+	border-left: 1px solid #e4e3e8;
+	font-size: 16px;
+	font-weight: 400;
+	font-variant: small-caps;
+	font-family: 'Lato', Helvetica, sans-serif;
+	justify-content: space-between;
+}
+
+.header_menu a.no_border {
+	border-left: none;
+}
+
+.header_menu a:hover {
+	color: green;
+
+}
+
+/*image area*/
+
+.profile_picture {
+	width: 210px;
+	height: 240px;
+	margin: 10px;
+	margin-left: -0.5rem;
+	background: url(./images/profilepic.jpg) 100% /200px no-repeat;
+	border-radius: 10px;
+}
+
+/*Contact Section*/
+.hello_content,
+.contact_details_content {
+	margin-top: 25px;
+}
+
+.hello_content {
+	width: 230px;
+}
+
+.contact_details_content h2+p.purple {
+	margin-top: 10px;
+}
+
+.contact_details_content p {
+	margin: 0;
+}
+
+.contact_details_content p.purple {
+	margin-top: 25px;
+}
+
+/*css on the send me a message button*/
+.send_message_button,
+.special_button {
+	margin-top: 25px;
+	display: block;
+	background: #48DA9B;
+	width: 230px;
+	height: 50px;
+	position: relative;
+	z-index: 1;
+}
+
+.cut1:after {
+	content: "";
+	position: absolute;
+	bottom: -19px;
+	left: -20px;
+	width: 30px;
+	height: 30px;
+	z-index: 9;
+	background: url(./images/background.webp) repeat;
+	transform: rotate(45deg);
+}
+
+.cut2:before {
+	content: "";
+	position: absolute;
+	top: -19px;
+	right: -20px;
+	width: 30px;
+	height: 30px;
+	z-index: 9;
+	background: url(./images/background.webp) repeat;
+	transform: rotate(45deg);
+}
+
+/*send me a message*/
+.content {
+	text-align: center;
+	color: #04080b;
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	z-index: 2;
+	font: 18px 'Lato', Arial, sans-serif;
+	margin: 0;
+	padding: 16px 0 0;
+	top: -4px;
+	bottom: 10px;
+	border-top: 1px solid #403F44;
+	border-bottom: 1px solid #403F44;
+}
+
+/* entypo */
+[class*="entypo-"]:before {
+	font-family: 'entypo', sans-serif;
+}
+
+[class*="fontawesome-"]:before {
+	font-family: 'FontAwesome', sans-serif;
+}
+
+.send_message_button:hover,
+.special_button:hover {
+	background: #29C782;
+}
+
+.social_content {
+	margin-top: 15px;
+}
+
+.social_content h2 {
+	margin-bottom: 8px;
+}
+
+.social_icons {
+	margin-left: -8px;
+}
+
+.social_icons a {
+	font-size: 35px;
+	text-decoration: none;
+	color: white;
+	padding: 0;
+	padding: 0 5px;
+}
+
+.social_icons a span.invisible {
+	display: none;
+}
+
+.social_icons .github:hover {
+	color: cyan;
+}
+
+.social_icons .twitter:hover {
+	color: cyan;
+}
+
+.social_icons .linkedin:hover {
+	color: cyan;
+}
+
+/* skills container */
+#left_col {
+	width: 260px;
+	float: left;
+}
+
+#content_container {
+	width: 699px;
+	border-left: 1px solid #403F44;
+	float: left;
+}
+
+li {
+	padding-left: 1em;
+	text-indent: -.7em;
+}
+
+li:before {
+	content: "• ";
+	color: white;
+	font-size: 20px;
+	padding-right: 8px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+/*footer here*/
+.footer {
+	font-style: italic;
+	margin-top: 20px;
+	color: yellow;
+}
+
+#footer {
+	width: 960px;
+	height: 60px;
+	border-top: 1px solid #403F44;
+	display: inline-block;
+}
